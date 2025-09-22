@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ty-makeup",
+          "appId": "1:365453936537:android:6156e0f9d4fb531be27508",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ty-makeup",
+          "configurations": {
+            "android": "1:365453936537:android:6156e0f9d4fb531be27508",
+            "ios": "1:365453936537:ios:befc25f6b708fcbee27508",
+            "macos": "1:365453936537:ios:befc25f6b708fcbee27508",
+            "web": "1:365453936537:web:511b120bfe8e2f87e27508",
+            "windows": "1:365453936537:web:f29cb17c2f26d30ce27508"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

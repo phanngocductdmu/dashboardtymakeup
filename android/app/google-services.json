@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "365453936537",
+    "firebase_url": "https://ty-makeup-default-rtdb.firebaseio.com",
+    "project_id": "ty-makeup",
+    "storage_bucket": "ty-makeup.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365453936537:android:6156e0f9d4fb531be27508",
+        "android_client_info": {
+          "package_name": "com.example.dashboard_tymakeup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswmifT6gvnflp04vfJhNCGH1_i7aW4Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365453936537:android:256a0dfe6f2d5e69e27508",
+        "android_client_info": {
+          "package_name": "com.example.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAswmifT6gvnflp04vfJhNCGH1_i7aW4Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
